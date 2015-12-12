@@ -727,7 +727,7 @@ local function run(msg, matches)
 end
 return {
   patterns = {
- -- "^[!/](add)$",
+  "^[!/](addgpryan)$",
   "^[!/](rules)$",
   "^[!/](about)$",
   "^[!/](setname) (.*)$",
