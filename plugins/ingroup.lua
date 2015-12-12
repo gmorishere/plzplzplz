@@ -354,7 +354,7 @@ local function run(msg, matches)
       load_photo(msg.id, set_group_photo, msg)
     end
   end
-  --if matches[1] == 'add' then
+  --if matches[1] == 'addgpimryan' then
    -- print("group "..msg.to.print_name.."("..msg.to.id..") added")
     --return modadd(msg)
  -- end
@@ -727,7 +727,7 @@ local function run(msg, matches)
 end
 return {
   patterns = {
-  "^[!/](addgpryan)$",
+  "^[!/](addgpimryan)$",
   "^[!/](rules)$",
   "^[!/](about)$",
   "^[!/](setname) (.*)$",
