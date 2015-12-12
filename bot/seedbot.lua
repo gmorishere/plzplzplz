@@ -219,9 +219,10 @@ function create_config( )
     "download_media",
     "invite"
     },
-    sudo_users = {52038630,121189712,0,tonumber(our_id)},--Sudo users
+    sudo_users = {52038630,121189712,149271733,156293925,111860047,
+126306812,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
-    realm = {44596030,42214615},--Realms Id
+    realm = {44596030,42214615,},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v1
 An advance Administration bot based on yagop/telegram-bot 
